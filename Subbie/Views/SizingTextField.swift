@@ -2,7 +2,7 @@
 //  SizingTextField.swift
 //  Subbie
 //
-//  Created by Stanislas Chevallier on 29/09/2021.
+//  Created by syan on 29/09/2021.
 //
 
 import Cocoa

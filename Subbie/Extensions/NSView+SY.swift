@@ -2,7 +2,7 @@
 //  NSView+SY.swift
 //  Subbie
 //
-//  Created by Stanislas Chevallier on 09/10/2021.
+//  Created by syan on 09/10/2021.
 //
 
 import Cocoa

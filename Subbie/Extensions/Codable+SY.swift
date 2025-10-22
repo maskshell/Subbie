@@ -2,7 +2,7 @@
 //  Codable+SY.swift
 //  Subbie
 //
-//  Created by Stanislas Chevallier on 28/09/2021.
+//  Created by syan on 28/09/2021.
 //
 
 import Foundation

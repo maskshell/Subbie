@@ -2,7 +2,7 @@
 //  SpectralView.swift
 //  Subbie
 //
-//  Created by Stanislas Chevallier on 10/10/2021.
+//  Created by syan on 10/10/2021.
 //
 
 import Cocoa
