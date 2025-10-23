@@ -4,6 +4,8 @@
 
 Quick and dirty native macOS clone of DivXLand Media Subtitler.
 
+[Read about it @ syan.me](https://syan.me/en/products/subbie)
+
 ## Features
 
 Currently supported features:
@@ -33,7 +35,7 @@ https://github.com/dvkch/Subbie/assets/1838148/65a271d0-7d16-40b2-aba6-3a3461f9d
 
 ## Disclaimer
 
-I made this project in a weekend to help a friend, I cannnot and will not guarantee I will have any more time to spend on it now that it reached v1.0. 
+I made this project in a weekend to help a friend, I cannnot and will not guarantee I will have any more time to spend on it now that it reached v1.0.
 
 You may open an issue for improvments, but keep in mind this is meant as a small tool to quickly create and sync SRT files and I would like to keep the list of features as small as possible.
 
