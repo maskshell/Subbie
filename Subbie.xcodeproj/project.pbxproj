@@ -34,6 +34,7 @@
 		97A49D9827130B1A007844C8 /* SpectralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A49D9727130B1A007844C8 /* SpectralView.swift */; };
 		97DF38302703F8FE002342CA /* SubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF382F2703F8FE002342CA /* SubtitleView.swift */; };
 		97DF3834270407F7002342CA /* SizingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF3833270407F7002342CA /* SizingTextField.swift */; };
+		97FBA99A2EE47F8000DE8468 /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = 97FBA9992EE47F8000DE8468 /* TelemetryDeck */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 				977157602BF4209800835370 /* DSWaveformImageViews in Frameworks */,
 				9771575E2BF4209800835370 /* DSWaveformImage in Frameworks */,
 				9771575B2BF4208E00835370 /* SnapKit in Frameworks */,
+				97FBA99A2EE47F8000DE8468 /* TelemetryDeck in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +236,7 @@
 				9771575A2BF4208E00835370 /* SnapKit */,
 				9771575D2BF4209800835370 /* DSWaveformImage */,
 				9771575F2BF4209800835370 /* DSWaveformImageViews */,
+				97FBA9992EE47F8000DE8468 /* TelemetryDeck */,
 			);
 			productName = Subbie;
 			productReference = 974FAA702703223B008B539B /* Subbie.app */;
@@ -293,6 +296,7 @@
 				977157592BF4208E00835370 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				9771575C2BF4209800835370 /* XCRemoteSwiftPackageReference "DSWaveformImage" */,
 				977157612BF420A300835370 /* XCRemoteSwiftPackageReference "Difference" */,
+				97FBA9982EE47F8000DE8468 /* XCRemoteSwiftPackageReference "SwiftSDK" */,
 			);
 			productRefGroup = 974FAA712703223B008B539B /* Products */;
 			projectDirPath = "";
@@ -716,6 +720,14 @@
 				minimumVersion = 1.0.2;
 			};
 		};
+		97FBA9982EE47F8000DE8468 /* XCRemoteSwiftPackageReference "SwiftSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.10;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -738,6 +750,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 977157612BF420A300835370 /* XCRemoteSwiftPackageReference "Difference" */;
 			productName = Difference;
+		};
+		97FBA9992EE47F8000DE8468 /* TelemetryDeck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97FBA9982EE47F8000DE8468 /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryDeck;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

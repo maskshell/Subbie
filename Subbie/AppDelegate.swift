@@ -6,11 +6,15 @@
 //
 
 import Cocoa
+import TelemetryDeck
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationWillFinishLaunching(_ notification: Notification) {
+        let config = TelemetryDeck.Config(appID: "285716B0-6779-4C9D-B9C3-60F8C6AAE99C")
+        TelemetryDeck.initialize(config: config)
+
         _ = DocumentController.init() // force use of our subclass
         translateMenu(id: "menu.match_end_to_next_start", text: L10n.Menu.matchEndToNextStart)
         translateMenu(id: "menu.delay_all_lines",         text: L10n.Menu.delayAllLines)
